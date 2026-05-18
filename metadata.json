@@ -1,0 +1,10 @@
+{
+  "name": "Remix: SafeGuard AI: Moliyaviy firibgarlikdan himoya tizimi",
+  "description": "O‘zbekistondagi kiberxavfsizlik va moliyaviy firibgarlikka qarshi kurashish uchun sun\u0027iy intellektga asoslangan kompleks platforma.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
