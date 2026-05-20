@@ -10,7 +10,7 @@ import { BlacklistItem, BotLogEntry, AnalysisResult } from './types';
 import { MOCK_BLACKLIST } from './constants';
 import { analyzeMessage } from './services/geminiService';
 
-const BOT_TOKEN = "8830437639:AAHZxi1rIKwMlJRSCaHqvrvtKL2B_8GH9_c";
+const BOT_TOKEN = (import.meta.env.VITE_TELEGRAM_BOT_TOKEN as string) || "8830437639:AAHZxi1rIKwMlJRSCaHqvrvtKL2B_8GH9_c";
 const TELEGRAM_API = `https://api.telegram.org/bot${BOT_TOKEN}`;
 
 const App: React.FC = () => {
